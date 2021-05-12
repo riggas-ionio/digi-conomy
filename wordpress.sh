@@ -238,8 +238,8 @@ sleep 1
 echo -e "You can now connect to MySQL as root (no passwd) via https://...run-eu-central1.goorm.io/phpmyadmin "
 echo -e "You can now connect to Wordpress and continue online installation via https://...run-eu-central1.goorm.io/wp"
 
-echo "<html><head><meta http-equiv='refresh' content='time; URL=/wp' /></head><body><a href='/wp'>Go to Wordpress</a></body></html>" > ./index.html
-echo "<html><head><meta http-equiv='refresh' content='time; URL=/wp' /></head><body><a href='/wp'>Go to Wordpress</a></body></html>" > ../index.html
+echo "<html><head><meta http-equiv='refresh' content='0; URL=/wp' /></head><body><a href='/wp'>Go to Wordpress</a></body></html>" > ./index.html
+echo "<html><head><meta http-equiv='refresh' content='0; URL=/wp' /></head><body><a href='/wp'>Go to Wordpress</a></body></html>" > ../index.html
 
 sleep 3
 echo -e "Installation & configuration succesfully finished.
